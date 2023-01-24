@@ -28,3 +28,127 @@ h1 {
 }
 
 ```
+
+# Tags
+Normal/ Paragraph
+```html
+<p>Normal</p>
+```
+**Bold**
+```html
+<b>Bold</b>
+```
+__Italic__
+```html
+<i>Italic</i>
+```
+__Emphasized__
+```html
+<em>Emphasized</em>
+```
+Marked (like highlighted with a marker)
+```html
+<mark>Marked</mark>
+```
+~~Deleted~~
+```html
+<del>Deleted</del>
+```
+<ins>Inserted</ins>
+```html
+<ins>Inserted</ins>
+```
+Small (A bit smaller text)
+```html
+<small>Small</small>
+```
+This is <sub>Subscript</sub>
+```html
+<sub>Subscript</sub>
+```
+This is <sup>Superscript</sup>
+```html
+<sup>Superscript</sup>
+```
+<h3>Header</h3> (Ranges from h1 to h6. h1 being the biggest)
+
+```html
+<h2>Header</h2>
+```
+
+Pre Formated (leaves the text as is)
+```html
+<pre>
+pre 
+
+formated
+</pre>
+```
+
+Break<br>Break
+```html
+<p>Break<br/>Break</p>
+```
+
+<span>Span 1</span>
+<span>Span 2</span>
+
+```html
+<span>Span 1</span>
+<span>Span 2</span>
+```
+
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+
+```html
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+```
+
+<span>Span and<br>brek</span>
+
+```html
+<span>Span and<br>brek</span>
+```
+
+Span and paragraph are both similar, but paragraph adds big gaps (note that these gaps arent selectable, and also allot biger than gaps from break).
+
+---
+
+Link (The target defines the action. "_self" will open the link in the same tab and "_blank" will open it in a new tab  )
+```html
+<a href="https://www.google.com/" target="_self">I'm a link</a>
+```
+
+Open Link in mail client (Will open the link from the href in the os default mail clinet)
+```html
+<a href="mailto:someone@example.com">Email Me</a>
+```
+
+Show image that's clikcable link
+```html
+<a href="https://www.google.com/" target="_blank"> <img src="https://i.imgur.com/xZTQEP9.png" alt="Image"> </a>
+```
+
+Image (The alt parameter is optional)
+```html
+<img src="https://i.imgur.com/EQmmDaE.png" alt="Image">
+```
+
+Image with custom width
+```html
+<img src="https://i.imgur.com/EQmmDaE.png" alt="Image" width="35">
+```
+
+Abbreviation/ Tooltip (In this example when hovering the T one will see "Test")
+```html
+<p>The <abbr title="Test">T</abbr> defines abbreviation</p>
+```
+
+```html
+```
+```html
+```
+```html
+```
