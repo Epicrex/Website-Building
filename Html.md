@@ -29,7 +29,12 @@ h1 {
 
 ```
 
-# Tags
+
+# Div Tag
+
+
+
+# Other Tags
 Normal/ Paragraph
 ```html
 <p>Normal</p>
@@ -141,13 +146,19 @@ Image with custom width
 <img src="https://i.imgur.com/EQmmDaE.png" alt="Image" width="35">
 ```
 
-Abbreviation/ Tooltip (In this example when hovering the T one will see "Test")
+Abbreviation (In this example when hovering the T one will see "Test")
 ```html
 <p>The <abbr title="Test">T</abbr> defines abbreviation</p>
 ```
 
+# Attributes
+
+<p title="I'm a tooltip">Tooltip</p>
+
 ```html
+<p title="I'm a tooltip">Hover me for tooltip.</p> 
 ```
+
 ```html
 ```
 ```html
